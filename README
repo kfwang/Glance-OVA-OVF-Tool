@@ -1,0 +1,9 @@
+Glance OVF/OVA Tool
+
+The tool takes an OVA tar archive and extracts it, parses the OVF for
+properties and uploads the disk image to Glance with the included
+properties. Finally, it creates a Heat template with the cpu, memory
+info from the OVF as a flavor.
+
+Usage
+$ ./ovf-tool.py <OVA-filename> [<uploaded-image-name>]

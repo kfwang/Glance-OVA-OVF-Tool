@@ -1,0 +1,8 @@
+description: Heat template for OVA image
+heat_template_version: '2015-04-30'
+resources:
+  instance:
+    properties:
+      flavor: m1.small
+      image: test_image
+    type: OS::Nova::Server

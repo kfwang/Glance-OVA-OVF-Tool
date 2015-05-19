@@ -1,0 +1,6 @@
+Demo Files:
+Some OVA files can be downloaded here: http://sourceforge.net/projects/virtualappliances/files/Linux/Ubuntu/
+
+Ubuntu-12.04-LTS-i386-gui.ovf: The OVF file extracted from the downloaded OVA file
+
+template.yaml: This is the Heat template produced by the tool using the demo OVA file
